@@ -49,7 +49,7 @@
 
 - 함수도 하나의 타입처럼 사용 가능
 
-- 3가지 방법으로 인스턴스화가 가능
+- 3가지 방법으로 인스턴스화가 가능. 
   ㄴ 단순히 코드블럭으로 (람다함수, 익명함수)
 
   ```kotlin
@@ -243,6 +243,8 @@ printHelloWorld(parent, parent)			// "Hello World"
 - `in` 키워드를 사용하여 상위타입의 파라미터를 받을 수 있도록 하는것을 반공변성( `contravariance`).
   매개변수 Parent (두번째)는 contravariance type의 변수다.
 
+---
+
  ### star-projection
 
 - Star-projection은 기본적으로 `out Any?`, `in Nothing` 과 같은 용도로 사용되지만 더 간결하다.
@@ -259,7 +261,7 @@ printHelloWorld(parent, parent)			// "Hello World"
       }
   }
   ```
-
+---
   
 
 ### use-site variance vs declation-site variance
