@@ -116,12 +116,13 @@ val max = if(a > b) a else b
   : 소프트웨어의 설계 부품(클래스, 함수 등)은 하나의 책임(기능)만을 가져야 한다
 - O- Open-Closed Principle(개방-폐쇄 원칙)
   : 기능을 추가하는 것에 열려 있고(Open), 그때  기존 코드를 변경하지 않고(Closed) 추가할 수 있도록 설계해야한다. 
-- L- LisKov Substitution Principle(리스코프 책임 원칙)
+- L- LisKov Substitution Principle(리스코프  원칙)
   : 부모 클래스 객체의 자리를 자식 클래스 객체가 대신해도 코드가 동작해야 한다. 
 - I- Interface Segregation Principle(인터페이스 분리 원칙)
   : 한 클래스는 자신이 사용하지 않는 인터페이스는 구현하지 않아야 한다. 하나의 일반적인 인터페이스보다 여러개의 구체적 인터페이스가 낫다.
 - D- Dependency Inversion Principle(의존 역전 원칙)
   : 의존 관계를 맺을 때, 변화하기 쉬운 것(구현체)보다는 변화하기 어려운 것(추상클래스)에 의존해야 한다.
+ DIP실사용 사례: https://blog.gangnamunni.com/post/dependency-inversion-principle/
 
 - 참고링크: https://dev-momo.tistory.com/entry/SOLID-%EC%9B%90%EC%B9%99
 
