@@ -60,7 +60,7 @@ val amount = calcEndDayAmount(10, 500)  // 작동한다. —
 - 싱글톤을 사용하는 방법으로 Nested Class 를 추천한다. 이는 클래스끼리 서로 관련성이 있다면 독립적인 클래스를 만드는 것보다 Nested Class 를 만드는 걸 추천한다.
   - 여기서 말하는 관련성은 모든 객체가 가지고 있을만한 공통적인 Property 나 생성자 대신에 팩토리 메소드를 사용하기 위해 Factory 를 만드는 것 
   - 이런 공통적인 특성들은 싱글톤으로 만들면 좋은데 Nested Class 에서도 Object 선언부가 있으면 싱글톤으로 만들 수 있음.
-  - 주의 할 점은 Nested Class 는 Outer class 의 property 와 function 을 이용하는게 가능하지만 그 역은 안된다.
+  - 주의 할 점은 Outer Class 는 Nested class 의 property 와 function 을 이용하는게 가능하지만 그 역은 안된다.
    
 
 ### Debugging
