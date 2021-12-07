@@ -43,10 +43,10 @@
 
 - 클래스와 연관된 싱글턴 객체들을 object로 관리하면 가독성이 좋아지고 프로그래밍하기 좋다. 
 
-- companion object vs nested object? vs static keyword(in Java) = nested class vs inner class(non-static class in java). 
-  ㄴ 컴패니언 내부 `private` 변수는 내부클래스/오브젝트에서 사용가능하다. 
-  ㄴ nested object/nested class 는 별개의 독립된 오브젝트로서 작동한다. object는 싱글턴. 
-  ㄴ inner class는 outer class의 값을 자유롭게 사용할 수 있다. outer class에 완전 종속적이고, outer class에서만 사용한다. 
+- companion object vs nested object? vs static keyword(in Java) = nested class vs inner class(non-static class in java).  
+  ㄴ 컴패니언 내부 `private` 변수는 내부클래스/오브젝트에서 사용가능하다.  
+  ㄴ nested object/nested class 는 별개의 독립된 오브젝트로서 작동한다. object는 싱글턴.  
+  ㄴ inner class는 outer class의 값을 자유롭게 사용할 수 있다. outer class에 완전 종속적이고, outer class에서만 사용한다.  
 
 ---
 
