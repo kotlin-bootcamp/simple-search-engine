@@ -1,5 +1,9 @@
 package search
 
+fun main() {
+    SearchApplication().run()
+}
+
 enum class ProgramStatus {
     CONTINUE, EXIT
 }
@@ -87,6 +91,3 @@ class SearchApplication {
     }
 }
 
-fun main() {
-    SearchApplication().run()
-}
